@@ -1,0 +1,52 @@
+######
+coding
+######
+
+0: about this project
+=====================
+
+me solving coderun, codeforces, codewars and leetcode problems to 'git gud'.
+
+1.1: project layout
+===================
+
+- :code:`root`: The :code:`CMakeLists.txt` and :code:`.command` files are located directly in the root folder.
+
+  - :code:`/bin`: contains the :code:`solution` executable file.
+
+  - :code:`/build`: contains the :code:`cmake` generated build files.
+
+  - :code:`/source`: contains the :code:`solution.cpp` source file.
+
+2: cmake
+========
+
+.. code-block::
+
+	cmake_minimum_required(VERSION 3.28)
+	project("coding")
+
+	set (CMAKE_CXX_STANDARD 11)
+
+	add_executable(gaussN 
+	  "source/solution.cpp"
+	)
+
+	install(TARGETS gaussN DESTINATION "${PROJECT_SOURCE_DIR}/bin/")
+
+3: build
+========
+
+- :code:`solution.command` contains the following:
+
+  - :code:`~/projectRoot rm -rf build/` and :code:`~/projectRoot mkdir build` basically clears the build directory.
+
+  - :code:`cd build`: enters the directory.
+
+  - :code:`cmake ..`: builds the :code:`CMakeLists.txt` located in the parent directory.
+
+  - :code:`make install`: creates the :code:`solution` executable and puts it in the :code:`~/projectRoot/bin` directory.
+
+  - :code:`cd ../bin`: enters the /bin directory.
+
+  - :code:`./gaussN`: launches the executable.
