@@ -28,11 +28,11 @@ me solving coderun, codeforces, codewars and leetcode problems to 'git gud'.
 
 	set (CMAKE_CXX_STANDARD 11)
 
-	add_executable(gaussN 
+	add_executable(solution 
 	  "source/solution.cpp"
 	)
 
-	install(TARGETS gaussN DESTINATION "${PROJECT_SOURCE_DIR}/bin/")
+	install(TARGETS solution DESTINATION "${PROJECT_SOURCE_DIR}/bin/")
 
 3: build
 ========
@@ -49,4 +49,4 @@ me solving coderun, codeforces, codewars and leetcode problems to 'git gud'.
 
   - :code:`cd ../bin`: enters the /bin directory.
 
-  - :code:`./gaussN`: launches the executable.
+  - :code:`./solution`: launches the executable.
