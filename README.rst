@@ -50,3 +50,22 @@ me solving coderun, codeforces, codewars and leetcode problems to 'git gud'.
   - :code:`cd ../bin`: enters the /bin directory.
 
   - :code:`./solution`: launches the executable.
+
+4: problems
+===========
+
+- :code:`001_triangle.cpp`:: :code:`coderun` : :code:`easy` : :code:`geometry` :
+
+  - Даны три натуральных числа. Возможно ли построить треугольник с такими сторонами? Если это возможно, выведите строку YES, иначе выведите строку NO. Треугольник — это три точки, не лежащие на одной прямой.
+
+  - :code:`формат ввода` : Вводятся три натуральных числа.
+
+  - :code:`формат вывода` : Выведите ответ на задачу.
+
+  - :code:`ограничения` : 1 с, 64 мб.
+
+  - :code:`пример 1` : 3\n4\n5\n -> YES.
+
+  - :code:`пример 2` : 3\n5\n4\n -> YES.
+
+  - :code:`пример 3` : 4\n5\n3\n -> YES.
