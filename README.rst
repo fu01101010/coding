@@ -54,11 +54,10 @@ me solving coderun, codeforces, codewars and leetcode problems to 'git gud'.
 4: problems
 ===========
 
-
 юля, никита и задачи.
 ~~~~~~~~~~~~~~~~~~~~~
 
-- :code:`001_coderun.cpp`:: :code:`coderun` : :code:`easy` :
+- :code:`001_coderun.cpp` :: :code:`coderun` : :code:`easy` :
 
   - Подготовка задач к сезону это долгий и кропотливый процесс. Юля знает, что уже готово A задач. Никита выяснил, что ещё B задач почти готовы и в ближайшее время будут добавлены в сезон. Помогите Юле и Никите узнать, сколько всего задач планируется в сезоне.
 
@@ -74,11 +73,10 @@ me solving coderun, codeforces, codewars and leetcode problems to 'git gud'.
 
   - :code:`пример 3`		: 1 3 -> 4.
 
-
 треугольник.
 ~~~~~~~~~~~~
 
-- :code:`002_coderun.cpp`:: :code:`coderun` : :code:`easy` : :code:`geometry` :
+- :code:`002_coderun.cpp` :: :code:`coderun` : :code:`easy` : :code:`geometry` :
 
   - Даны три натуральных числа. Возможно ли построить треугольник с такими сторонами? Если это возможно, выведите строку YES, иначе выведите строку NO. Треугольник — это три точки, не лежащие на одной прямой.
 
